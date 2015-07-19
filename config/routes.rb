@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   root 'static_pages#index'
 
   get 'fruit-hunt', to: 'static_pages#fruit_hunt'
+  get 'solar-system-1', to: 'static_pages#solar_system_1'
+  get 'solar-system-2', to: 'static_pages#solar_system_2'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
